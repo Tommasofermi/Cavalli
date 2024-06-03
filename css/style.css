@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro h1 {
+    margin: 0;
+    color: #333;
+}
+
+.intro p {
+    color: #777;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.popupsi, .popupno {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    max-width: 80%; /* Limita la larghezza massima delle popup */
+    border-radius: 10px;
+}
+
+.popupsi p, .popupno p {
+    font-size: 18px;
+    color: #333;
+}
+
+.popupsi button, .popupno button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Allinea il pulsante al centro */
+}
+
+.popupsi button:hover, .popupno button:hover {
+    background-color: #555;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center; /* Centra il contenuto */
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Imposta il form come blocco inline */
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block; /* Mostra gli input come blocchi */
+}
+
+
+.contact-form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.testimonial {
+    text-align: left; /* Allinea il contenuto delle testimonianze a sinistra */
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column-reverse; /* Inverte la direzione delle colonne */
+    align-items: flex-start; /* Allinea gli elementi lungo il bordo sinistro */
+}
+
+
+.testimonial img {
+    width: 120px; /* Imposta la larghezza dell'immagine */
+    height: 120px; /* Imposta l'altezza dell'immagine */
+    border-radius: 50%; /* Rendi l'immagine circolare */
+    margin-right: 20px; /* Aggiunge un margine destro per separare l'immagine dal testo */
+    float: left; /* Fa galleggiare l'immagine a sinistra */
+}
+
+.testimonial h3 {
+    margin-top: 0;
+}
+
+.testimonial span {
+    display: block; /* Imposta il nome come blocco */
+    font-style: italic;
+    color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Riduci la larghezza del contenitore su dispositivi mobili */
+    }
+
+    nav {
+        flex-direction: column; /* Imposta la direzione della flessione su dispositivi mobili */
+    }
+
+    nav a {
+        margin: 5px 0; /* Aggiusta il margine verticale per i link di navigazione su dispositivi mobili */
+    }
+
+    .popupsi, .popupno {
+        width: 80%; /* Riduci la larghezza delle popup su dispositivi mobili */
+    }
+
+    .testimonial img {
+        margin: 0; /* Rimuovi il margine dell'immagine su dispositivi mobili */
+        float: none; /* Ripristina il comportamento del float su dispositivi mobili */
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .contact-form {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: calc(100% - 20px); /* Larghezza del 100% meno il padding */
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+        display: block;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #555;
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+}

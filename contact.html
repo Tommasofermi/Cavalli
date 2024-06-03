@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>i cavalli vanno mangiati non cavalcati</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Chi Siamo</a>
+            <a href="insights.html">Approfondimenti</a>
+            <a href="testimonials.html">Testimonianze</a>
+            <a href="contact.html">Contatti</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Contatti</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Invia</button>
+        </form>
+        <p id="form-response"></p>
+    </div>
+    <footer>
+        &copy; 2024 Bresaolozza. Tutti i diritti riservati.
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

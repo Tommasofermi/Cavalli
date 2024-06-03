@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bresaola</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>i cavalli vanno mangiati non cavalcati</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Chi Siamo</a>
+            <a href="insights.html">Approfondimenti</a>
+            <a href="testimonials.html">Testimonianze</a>
+            <a href="contact.html">Contatti</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p>Benvenuti su Scopri la Carne Equina, il sito dedicato a promuovere la conoscenza e l'apprezzamento della carne di cavallo. Esplora le nostre pagine per scoprire i benefici nutrizionali, le ricette deliziose e le testimonianze di chi ha scelto di includere la carne equina nella propria dieta.</p>
+        <p>Non esitare a contattarci se hai domande o se desideri ulteriori informazioni. Buon appetito!</p>
+            <h1>Mangi carne di cavallo?</h1>
+            <button onclick="showPopupsi()">Si</button>
+            <button onclick="showPopupno()">No</button>
+        </div>
+        <div id="popupsi" class="popupsi">
+            <p>Sei uno dei nostri!</p>
+            <button onclick="hidePopupsi()">Chiudi</button>
+        </div>
+        <div id="popupno" class="popupno">
+            <p>Devi farti curare</p>
+            <button onclick="hidePopupno()">Chiudi</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Bresaolozza. Tutti i diritti riservati.
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
