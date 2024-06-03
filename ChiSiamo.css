@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  background-color: #dbdbdb;
+}
+
+nav {
+  background-color: #488DCD;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+nav a {
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}   
+
+.freshener {
+  color: #dbdbdb;
+}
+
+.supporta {
+  color: #dbdbdb;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  max-width: 50%;
+}
+
+.right {
+  flex: 1;
+  text-align: left;
+  padding: 3%;
+}

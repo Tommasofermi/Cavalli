@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporta</title>
+    <link rel="stylesheet" href="Supporta.css">
+</head>
+
+<body>
+    <nav>
+        <a onclick="location.href='Freshener.html'">Freshener</a>
+        <a onclick="location.href='ChiSiamo.html'">Chi Siamo</a>
+        <a onclick="location.href='Supporta.html'" style="color: #B20B0E;">Supporta</a>
+    </nav>
+
+
+    <div class="support-container">
+        <div class="support-text">
+            <p>Cari utenti di Freshener,</p>
+            <p>Siamo entusiasti di condividere con voi la nostra passione per la semplificazione dell'accesso alle
+                informazioni sui veicoli nella regione Lombardia attraverso il nostro progetto Freshener. Creare e
+                mantenere una risorsa così preziosa richiede sforzi significativi, e il vostro supporto può fare la
+                differenza.</p>
+            <p>Se apprezzate il nostro impegno e volete contribuire a far crescere Freshener, vi invitiamo a considerare
+                la possibilità di effettuare una donazione. Le vostre generose contribuzioni ci aiuteranno a coprire i
+                costi di sviluppo, manutenzione e miglioramento continuo del nostro servizio.</p>
+            <p>Ogni donazione, grande o piccola, è un passo in avanti per assicurare che Freshener rimanga una risorsa
+                affidabile e all'avanguardia per tutti gli appassionati di veicoli nella regione Lombardia.</p>
+            <p>Grazie per il vostro sostegno prezioso. Siamo grati di avere una community appassionata come voi al
+                nostro fianco.</p>
+            <p>Grazie per far parte del nostro viaggio!</p>
+            <p>Il Team Freshener.</p>
+        </div>
+        <a href="https://patreon.com/user?u=107079480" target="_blank">
+            <button id="dona" type="button">SUPPORTACI</button>
+            <script>
+                var dona = document.getElementById("dona");
+                var colors = ["red", "orange", "yellow", "green", "blue", "orange", "purple"];
+                var currentColorIndex = 0;
+                function changeColor() {
+                    dona.style.background = colors[currentColorIndex];
+                    currentColorIndex = (currentColorIndex + 1) % colors.length;
+                }
+                dona.addEventListener("click", changeColor);
+                setInterval(changeColor, 100);
+            </script>
+    </div>
+
+</body>
+
+</html>

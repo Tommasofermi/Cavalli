@@ -1,0 +1,84 @@
+body {
+    background: url('immagini/BMW.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-color: #dbdbdb;
+}
+
+nav {
+    background-color: #488DCD;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+nav a {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}   
+
+.freshener {
+    color: #dbdbdb;
+}
+
+.chisiamo {
+    color: #dbdbdb;
+}
+
+
+#dona {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background: #488DCD;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-family: "Nico Moji", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#dona:hover {
+    background-color: #2ecc71;
+}
+
+.support-container {
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FAFAFA;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.support-text {
+    color: black;
+    font-size: 16px;
+    font-family: Neuton, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+    .support-container {
+        width: 90%;
+    }
+}

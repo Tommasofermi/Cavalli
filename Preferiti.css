@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-color: #dbdbdb;
+}
+
+
+nav {
+    background-color: #488DCD;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+nav a {
+    color: #B20B0E;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.tabella {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
